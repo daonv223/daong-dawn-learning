@@ -4,6 +4,7 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "disabled": true,
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
@@ -17,6 +18,21 @@
       },
       "block_order": [
         "announcement-bar-0"
+      ]
+    },
+    "announcement-banner": {
+      "type": "announcement-banner",
+      "settings": {},
+      "blocks": {
+        "announcement-banner-0": {
+          "type": "banner",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-banner-0"
       ]
     },
     "header": {
@@ -39,6 +55,7 @@
   },
   "order": [
     "announcement-bar",
+    "announcement-banner",
     "header"
   ]
 }
