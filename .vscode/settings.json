@@ -9,5 +9,7 @@
   "[liquid]": {
     "editor.formatOnSave": false
   },
-  "liquid.format.enable": false
+  "liquid.format.enable": false,,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2
 }

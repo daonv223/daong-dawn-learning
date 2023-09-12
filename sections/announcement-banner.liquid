@@ -12,7 +12,7 @@
           {%- if section.blocks.first.settings.image -%}
             {{ section.blocks.first.settings.image | image_url: width: 980 | image_tag }}
           {%- else -%}
-            <img src="{{ 'default-leaderboard.jpg' | asset_img_url: 'original' }}" alt="Default Leader Board">
+            <img src="{{ 'default-leaderboard.png' | asset_img_url: 'original' }}" alt="Default Leader Board">
           {%- endif -%}
         {%- if section.blocks.first.settings.link != blank -%}
            </a>
@@ -24,12 +24,12 @@
 
 {% schema %}
 {
-  "name": "Announcement Banner",
+  "name": "t:sections.announcement-banner.name",
   "class": "announcement-banner-section",
   "blocks": [
     {
       "type": "banner",
-      "name": "banner",
+      "name": "t:sections.announcement-banner.blocks.banner.name",
       "limit": 1,
       "settings": [
         {

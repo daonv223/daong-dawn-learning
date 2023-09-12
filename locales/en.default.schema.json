@@ -445,6 +445,12 @@
       }
     },
     "announcement-banner": {
+      "name": "Announcement Banner",
+      "blocks": {
+        "banner": {
+          "name": "Banner"
+        }
+      },
       "presets": {
         "name": "Announcement Banner"
       }
